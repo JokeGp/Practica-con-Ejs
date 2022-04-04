@@ -1,0 +1,14 @@
+<html>
+  <head> </head>
+  <body>
+    <ul>
+      <% if(ID%2 == 0){ %> <% for (let i = 0; i < ID*2; i++){ %>
+      <li>ES PAR</li>
+      <% } %> <% } else { %> <% for(let i = 0; i < ID; i++){ %>
+      <li>ES IMPAR</li>
+      <% } %> <% } %>
+    </ul>
+
+    <h1>NUMBER: <%=ID%></h1>
+  </body>
+</html>
