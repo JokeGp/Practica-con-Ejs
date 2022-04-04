@@ -1,6 +1,8 @@
 <html>
   <head> </head>
   <body>
+  <!-- Aqui hacemmos una condicion en la que verificamos si el residuo de el parametro ID es igual a 0 despues hacemos un pequeño ciclo donde imprimimos la etiqueta <li> es par </li> porque logramos comprobar que el ID es par-->
+    <!-- abajo se hace lo mismo solo que sin multiplicar por 2 puesto que no queremos imprimir n veces * 2 la palabra es impar puesto que a los impares solo imprimiremos la cantidad de etiquetas que equivalgan al numero -->
     <ul>
       <% if(ID%2 == 0){ %> <% for (let i = 0; i < ID*2; i++){ %>
       <li>ES PAR</li>
